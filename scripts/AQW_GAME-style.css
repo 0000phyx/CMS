@@ -1,0 +1,150 @@
+body, td, th {
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+body {
+	margin: 25px 0 0 0!important;
+    background: #0b0c10 url("../images/play-now-bg2.jpg") center top no-repeat;
+}
+.sprite {
+	background: url("../images/game-sprite-bar_AQW.png") 0 0 no-repeat;
+}
+.menu {
+	width: 996px;
+	height: 86px;
+	background-position: 0 0;
+	margin: 0 auto 20px;
+}
+a span {
+	display: none;
+}
+.sprite a {
+	display: block;
+	width: inherit;
+	height: inherit;
+}
+.dns, .freeAcs, .gameSize {
+	margin-top: 22px;
+	background-position: -26px -103px;
+	width: 123px;
+	height: 48px;
+	display: inline-block;
+	vertical-align: top;
+}
+.dns a, .freeAcs a, .aqworlds a {
+	width: inherit;
+	height: inherit;
+	display: block;
+	cursor: pointer;
+}
+.dns:hover {
+	background-position: -26px -155px;
+}
+.upgrade {
+	margin: 18px 0 0 3px;
+	background-position: -152px -99px;
+	width: 123px;
+	height: 51px;
+	display: inline-block;
+	vertical-align: top;
+}
+.upgrade:hover {
+	background-position: -152px -151px;
+}
+.freeAcs {
+	background-position: -277px -103px;
+	width:122px;
+}
+.freeAcs:hover {
+	background-position: -277px -155px;
+}
+.aqworlds {
+	margin: 10px 10px 0 10px;
+	background-position: -408px -92px;
+	width: 184px;
+	height: 70px;
+	display: inline-block;
+	vertical-align: top;
+}
+.gameSize {
+	margin-left: 10px;
+	background-position: -860px -103px;
+}
+.gameSize ul, .gameSize li {
+	margin: -5px 0 0 0;
+	padding: 0;
+}
+.gameSize li.topLevel {
+    display: inline-block;
+	width: 122px;
+    height: 48px;
+}
+.gameSize li.topLevel:hover {
+    height: 48px;
+    margin-top: 5px;
+    padding: 5px 0 0;
+}
+.gameSize li.topLevel a {
+    color: #F19B09;
+    display: inline-block;
+    padding: 0 10px;
+	width: 94px;
+	margin-top: 5px;
+}
+.gameSize li.topLevel a.none{
+	height: 22px;
+	margin: 0;
+	padding: 0;
+}
+.gameSize li.topLevel ul {
+    display: none;
+    margin: 0 0 0 8px;
+    padding: 0;
+    text-align: left;
+}
+.gameSize li.topLevel li {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 94px;
+	height: 29px;
+	background: #060606;
+	border-top: 1px solid #202020;
+	border-bottom: 1px solid #000;
+}
+.gameSize li.topLevel li.first {
+	border-top: none;
+}
+.gameSize li.topLevel:hover ul, .gameSize li:hover li:hover {
+    display: block;
+    z-index: 50;
+	background: #000;
+}
+.gameSize li.topLevel:hover ul {
+    position: absolute;
+}
+.fb {
+	margin-top: 30px;
+	display: inline-block;
+}
+.game, .chat {
+    overflow: hidden;
+	color: #EEE;
+    padding: 5px;
+    margin: -2px;
+    border-radius: 5px;
+	background-color: #191919;
+    box-shadow: 0 0 5px #000000;
+	border: solid 1px #000000;
+}
+.chat {
+	margin: 0 auto 15px;
+	height: 405px;
+	width: 540px;
+}
+.game {
+	margin: 0 auto;
+	height: 550px;
+}
